@@ -16,6 +16,10 @@
     - cd comments
     - npm init -y
     - npm install express cors axios nodemon
+- For express projects  posts and comments
+    - make sure to enable Node.js coding assistance in Preferences | Languages & Frameworks | Node.js and NPM; Otherwise it
+       doesn't see the require.
+    - npm install --save-dev @types/express. Otherwise webstorm doesnt't resolve, get, post etc.
 - add node_modules under each folder to .gitignore file.
 - share project on github
 
