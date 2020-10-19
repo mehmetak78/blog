@@ -25,6 +25,10 @@
 
 -----------
 
+Run the Posts application
+    - npm start
+    - Test it via Postman
+
 
 
 
