@@ -1,6 +1,8 @@
 - Create an empty project called: blog
 - under the blog folder, in terminal
     - git init
+    - create a .gitignore file
+
 - create a React App called client
     - under the folder blog
     - Attach the project to the current project in Webstorm window.
@@ -14,4 +16,11 @@
     - cd comments
     - npm init -y
     - npm install express cors axios nodemon
+- add node_modules under each folder to .gitignore file.
+- share project on github
+
+-----------
+
+
+
 
