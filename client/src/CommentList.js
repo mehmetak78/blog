@@ -8,7 +8,6 @@ const CommentList = ({postId}) => {
     const res = await axios.get(
       `http://localhost:4001/posts/${postId}/comments`
     );
-    console.log(postId)
     setComments(res.data);
   };
 
@@ -22,7 +21,6 @@ const CommentList = ({postId}) => {
 
 
   return <div>
-    Mehmet
     <ul>{renderedComments}</ul>
   </div>
 };
