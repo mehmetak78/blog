@@ -29,6 +29,12 @@ Run the Posts application
     - npm start
     - Test it via Postman
 
+---------------
+
+- use cors for CORS.
+    - npm install cors in comments and posts projects
+    - app.use(cors())
+
 
 
 
