@@ -23,6 +23,19 @@
 - add node_modules under each folder to .gitignore file.
 - share project on github
 
+- under blog folder, in terminal
+    - mkdir event-bus
+    - cd event-bus
+    - npm init -y
+    - npm install express axios nodemon
+
+- under blog folder, in terminal
+    - mkdir query
+    - cd query
+    - npm init -y
+    - npm install express cors
+
+
 -----------
 
 Run the Posts application
